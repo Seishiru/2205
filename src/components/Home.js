@@ -2,7 +2,7 @@ import '../css/Home.css';
 import React from 'react';
 import cecil from '../images/cecil.png';
 import von from '../images/von.png';
-import yongco from '../images/yongco.jpg';
+import yongco from '../images/yongco.png';
 import ayam from '../images/ayam.png';
 import { Element, Link } from 'react-scroll';
 
