@@ -5,25 +5,25 @@ import von from '../images/von.png';
 import yongco from '../images/yongco.png';
 import ayam from '../images/ayam.png';
 import { Element, Link } from 'react-scroll';
+import Map from './Map';
 
 const Home = () => {
   return (
-    
     <div className="center">
       <div className="module">
-          <div className='moduleContent column'>
-            <img src={require('../images/HomescreenQuote.png')} alt='Home Screen Quote'/>
-              <Link
-                className="learnMore"
-                to={1}
-                spy={true}
-                smooth={true}
-              >
-                <img src={require('../images/LearnMoreButton.png')} alt='Learn More'/>
-              </Link>
-            <img src={require('../images/BlueDog.png')} alt='Blue Dog'/>
-          </div>
+        <div className='moduleContent column'>
+          <img src={require('../images/HomescreenQuote.png')} alt='Home Screen Quote' />
+          <Link
+            className="learnMore"
+            to={1}
+            spy={true}
+            smooth={true}
+          >
+            <img src={require('../images/LearnMoreButton.png')} alt='Learn More' />
+          </Link>
+          <img src={require('../images/BlueDog.png')} alt='Blue Dog' />
         </div>
+      </div>
       <div className="module altColor">
         <div className='moduleContent'>
           <h1>SDG Portfolio</h1>
@@ -41,27 +41,27 @@ const Home = () => {
             </p>
             <div className="team">
               <div className="team-member">
-                <img src={cecil} alt="Cecil"/>
+                <img src={cecil} alt="Cecil" />
                 <a href='https://github.com/Seishiru' target='blank'>
-                  <p>Cecil<br/> rapharaphael54@gmail.com</p>
+                  <p>Cecil<br /> rapharaphael54@gmail.com</p>
                 </a>
               </div>
               <div className="team-member">
-                <img src={ayam} alt="Kristian"/>
+                <img src={ayam} alt="Kristian" />
                 <a href='https://github.com/krisyam' target='blank'>
-                  <p>Kristian<br/> kristian.ayam@gmail.com</p>
+                  <p>Kristian<br /> kristian.ayam@gmail.com</p>
                 </a>
               </div>
               <div className="team-member">
-                <img src={von} alt="Von"/>
+                <img src={von} alt="Von" />
                 <a href='' target='blank'>
-                  <p>Von <br/> von.manginsay71@gmail.com</p>
+                  <p>Von <br /> von.manginsay71@gmail.com</p>
                 </a>
               </div>
               <div className="team-member">
-                <img src={yongco} alt="Yongco"/>
+                <img src={yongco} alt="Yongco" />
                 <a href='https://github.com/GM-Yongco' target='blank'>
-                  <p>Giulio<br/> yongcogiulio125@gmail.com</p>
+                  <p>Giulio<br /> yongcogiulio125@gmail.com</p>
                 </a>
               </div>
             </div>
@@ -80,6 +80,8 @@ const Home = () => {
                 <h2>SDG 3: Good Health and Well-Being</h2>
               </button>
             </a>
+            {/* Include the Map component here */}
+            <Map />
           </div>
         </div>
       </Element>

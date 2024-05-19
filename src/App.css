@@ -1,8 +1,26 @@
+/* Global reset for margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #1C1C1C; /* A dark gray color */
+  color: white; /* Ensure default text color is white */
+}
+
 .App {
   text-align: center;
   background-color: #1C1C1C; /* A dark gray color */
   overflow-x: hidden;
   color: white; /* Ensure text in .App is white */
+  margin: 0;
+  padding: 0;
 }
 
 #root {
@@ -11,6 +29,8 @@
   min-height: 100vh;
   background-color: #1C1C1C; /* A dark gray color */
   color: white; /* Ensure text in #root is white */
+  margin: 0;
+  padding: 0;
 }
 
 header {
@@ -81,12 +101,16 @@ footer a:active {
   justify-content: center;
   flex-grow: 1;
   color: white; /* Ensure text in .content is white */
+  margin: 0;
+  padding: 0;
 }
 
 .row {
   display: flex;
   flex-direction: row;
   color: white; /* Ensure text in .row is white */
+  margin: 0;
+  padding: 0;
 }
 
 .App-link {
