@@ -59,3 +59,27 @@ p {
     transition-duration: 200ms;
     transform: scale(1.009);
 }
+
+.team {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .team-member {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .team-member img {
+    max-width: 150px;
+    border-radius: 50%;
+  }
+  
+  .team-member p {
+    margin-top: 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+  
