@@ -42,19 +42,27 @@ const Home = () => {
             <div className="team">
               <div className="team-member">
                 <img src={cecil} alt="Cecil"/>
-                <p>Cecil</p>
+                <a href='https://github.com/Seishiru' target='blank'>
+                  <p>Cecil<br/> jhondoe@mail.com</p>
+                </a>
               </div>
               <div className="team-member">
                 <img src={ayam} alt="Kristian"/>
-                <p>Kristian</p>
+                <a href='https://github.com/krisyam' target='blank'>
+                  <p>Kristian<br/> kristian.ayam@gmail.com</p>
+                </a>
               </div>
               <div className="team-member">
                 <img src={von} alt="Von"/>
-                <p>Von</p>
+                <a href='' target='blank'>
+                  <p>Von <br/> von.manginsay71@gmail.com</p>
+                </a>
               </div>
               <div className="team-member">
                 <img src={yongco} alt="Yongco"/>
-                <p>Yongco</p>
+                <a href='https://github.com/GM-Yongco' target='blank'>
+                  <p>Giulio<br/> yongcogiulio125@gmail.com</p>
+                </a>
               </div>
             </div>
           </div>
