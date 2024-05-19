@@ -1,52 +1,70 @@
+body {
+    background-color: #1C1C1C; /* Dark gray background for the body */
+    color: white; /* Default text color to white */
+}
+
 h1 {
-    color: black;
+    color: white; /* Change to white */
     font-size: 60px;
     @media screen and (max-width: 600px) {
         font-size: 35px; 
     }
 }
+
 h2 {
-    color: white;
+    color: white; /* Ensure h2 text is white */
     font-size: 35px;
     @media screen and (max-width: 600px) {
         font-size: 20px; 
     }
 }
+
 p {
-    color: black;
+    color: white; /* Change to white */
     font-size: 18px;
     @media screen and (max-width: 600px) {
         font-size: 12px; 
     }
 }
-a{
+
+a {
     text-decoration: none;
+    color: white; /* Ensure links are also white */
 }
+
 .center {
     text-align: center;
 }
+
 .module {
     display: flex;
     width: 100vw;
     justify-content: center;
     padding-top: 50px;
     padding-bottom: 50px;
+    background-color: #1C1C1C; /* Match the background color */
 }
+
 .moduleContent {
     width: 70vw;
 }
+
 .altColor {
-    background-color: #FFCC33;
+    background-color: #2B2B2B; /* A slightly lighter dark gray */
 }
+
 .column {
     display: block;
     direction: column;
 }
+
 .learnMore {
     cursor: pointer;
+    color: white; /* Ensure learn more text is white */
 }
+
 .sdg3 {
-    background-color: #CBB645;
+    background-color: #D55C5A;
     padding: 30px;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -56,11 +74,13 @@ a{
     transition-duration: 200ms;
     box-shadow: 10px 10px 20px #000000;
     cursor: pointer;
+    color: white; /* Ensure sdg3 text is white */
     @media screen and (max-width: 600px) {
         padding: 10px;
         margin: 10px;
     }
 }
+
 .sdg3:hover {
     transition-duration: 200ms;
     transform: scale(1.009);
@@ -71,21 +91,21 @@ a{
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-  }
-  
-  .team-member {
+}
+
+.team-member {
     text-align: center;
     margin: 20px;
-  }
-  
-  .team-member img {
+}
+
+.team-member img {
     max-width: 200px;
     border-radius: 2000;
-  }
-  
-  .team-member p {
+}
+
+.team-member p {
     margin-top: 10px;
     font-size: 1.2em;
     font-weight: bold;
-  }
-  
+    color: white; /* Ensure team member text is white */
+}

@@ -1,3 +1,7 @@
+// Unused code
+
+
+
 import '../css/CaseStudy.css';
 import React, { useState } from 'react';
 

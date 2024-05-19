@@ -1,24 +1,16 @@
 .App {
   text-align: center;
-  background-color: #F9D86E;
+  background-color: #1C1C1C; /* A dark gray color */
   overflow-x: hidden;
+  color: white; /* Ensure text in .App is white */
 }
 
 #root {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  background-color: #F9D86E;
-}
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+  background-color: #1C1C1C; /* A dark gray color */
+  color: white; /* Ensure text in #root is white */
 }
 
 header {
@@ -27,85 +19,106 @@ header {
   display: inline-flex;
   height: 50px;
   width: 100%;
-  background-color: #FFCC33;
+  background-color: #2B2B2B; /* A slightly lighter dark gray */
   justify-content: space-around;
   padding: 10px 0;
-  color: black;
+  color: white;
   z-index: 1000;
   font-weight: 600;
   font-size: 18px;
-  @media screen and (max-width: 768px) {
-    justify-content: space-between;
-    margin: 0 20px 0 0;
-  }
-  .squished {
-    align-content: center;
-    @media screen and (max-width: 768px) {
-      margin: 0 20px;
-    }
-  }
-  .pageLinks {
-    display: flex;
-    cursor: pointer;
-    @media screen and (max-width: 768px) {
-      display: none;
-      flex-direction: column;
-      position: absolute;
-      top: 60px;
-      left: 0;
-      width: 100%;
-      background-color: #092635;
-    }
-  }
-  .pageLinks a {
-    padding: 0 20px;
-    text-decoration: none;
-    color: black;
-    display: block;
-    align-content: center;
-  }
-  .pageLinks a:hover,
-  .pageLinks a:active {
-    color: grey;
-  }
 }
+
+header .squished {
+  align-content: center;
+}
+
+header .pageLinks {
+  display: flex;
+  cursor: pointer;
+}
+
+header .pageLinks a {
+  padding: 0 20px;
+  text-decoration: none;
+  color: white;
+  display: block;
+  align-content: center;
+}
+
+header .pageLinks a:hover,
+header .pageLinks a:active {
+  color: grey;
+}
+
 footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #FFCC33;
+  background-color: #2B2B2B; /* Match header background color */
   height: 50px;
-  color: black;
+  color: white;
   font-weight: 600;
   font-size: 18px;
   padding-top: 40px;
   padding-bottom: 20px;
   flex-direction: column;
-  a {
-    cursor: pointer;
-    color: black;
-    text-decoration: none;
-  }
 }
+
+footer a {
+  cursor: pointer;
+  color: white;
+  text-decoration: none;
+}
+
+footer a:hover,
+footer a:active {
+  color: grey;
+}
+
 .content {
   display: flex;
   position: relative;
   justify-content: center;
-  flex-grow: 1; 
+  flex-grow: 1;
+  color: white; /* Ensure text in .content is white */
 }
+
 .row {
   display: flex;
   flex-direction: row;
+  color: white; /* Ensure text in .row is white */
 }
+
 .App-link {
   color: #61dafb;
 }
 
+/* Adjust animation keyframes if needed */
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+/* Media queries for responsive design */
+@media screen and (max-width: 768px) {
+  header {
+    justify-content: space-between;
+    margin: 0 20px 0 0;
+  }
+  header .squished {
+    margin: 0 20px;
+  }
+  header .pageLinks {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    background-color: #2B2B2B;
   }
 }

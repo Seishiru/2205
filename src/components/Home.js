@@ -43,7 +43,7 @@ const Home = () => {
               <div className="team-member">
                 <img src={cecil} alt="Cecil"/>
                 <a href='https://github.com/Seishiru' target='blank'>
-                  <p>Cecil<br/> jhondoe@mail.com</p>
+                  <p>Cecil<br/> rapharaphael54@gmail.com</p>
                 </a>
               </div>
               <div className="team-member">
