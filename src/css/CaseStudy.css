@@ -1,0 +1,40 @@
+/* CaseStudy.css */
+
+.line-container {
+    width: 100%;
+    padding: 0 40px; /* Adjust the side padding */
+    box-sizing: border-box; /* Ensure padding doesn't add to width */
+    position: relative; /* Set container as relative for absolute positioning */
+  }
+  
+  .line {
+    width: calc(100% - 110px); /* Adjust the width of the line */
+    height: 4px;
+    background-color: #FFCC33;
+    position:relative;
+    top: 50%;
+    left: 50px;
+    transform: translateY(-50%); /* Center vertically */
+    z-index: 0;
+  }
+  
+  .circles-container {
+    display: flex;
+    justify-content: space-between; /* Evenly distribute circles */
+    margin-top: -22px; /* Half of the circle height plus half of the line thickness */
+  }
+  
+  .circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 0 40px;
+    background-color: #FFCC33;
+    cursor: pointer; /* Add pointer cursor */
+    z-index: 1;
+  }
+  
+  .clicked {
+    background-color: black; /* Change background color when clicked */
+  }
+  
