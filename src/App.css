@@ -1,0 +1,91 @@
+.App {
+  text-align: center;
+  background-color: #F9D86E;
+  overflow-x: hidden;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #F9D86E;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+header {
+  display: inline-flex;
+  height: 50px;
+  width: 100%;
+  background-color: #FFCC33;
+  justify-content: space-around;
+  padding: 10px 0;
+  color: black;
+  z-index: 1000;
+  font-weight: 600;
+  font-size: 18px;
+  @media screen and (max-width: 768px) {
+    justify-content: space-between;
+    margin: 0 20px 0 0;
+  }
+  .squished {
+    align-content: center;
+    @media screen and (max-width: 768px) {
+      margin: 0 20px;
+    }
+  }
+  .pageLinks {
+    display: flex;
+    @media screen and (max-width: 768px) {
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      top: 60px;
+      left: 0;
+      width: 100%;
+      background-color: #092635;
+    }
+  }
+  .pageLinks a {
+    padding: 0 20px;
+    text-decoration: none;
+    color: black;
+    display: block;
+    align-content: center;
+  }
+  .pageLinks a:hover,
+  .pageLinks a:active {
+    color: grey;
+  }
+}
+
+.content {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  flex-grow: 1; 
+}
+.row {
+  display: flex;
+  flex-direction: row;
+}
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
