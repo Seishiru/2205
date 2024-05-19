@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/2205/static/css/main.2735f1db.css",
+    "main.js": "/2205/static/js/main.8cd2f8be.js",
+    "static/js/453.46309be1.chunk.js": "/2205/static/js/453.46309be1.chunk.js",
+    "static/media/HomescreenQuote.png": "/2205/static/media/HomescreenQuote.0cead9c23f7a980873de.png",
+    "static/media/BlueDog.png": "/2205/static/media/BlueDog.bbcccdbd8ea23573635f.png",
+    "index.html": "/2205/index.html",
+    "main.2735f1db.css.map": "/2205/static/css/main.2735f1db.css.map",
+    "main.8cd2f8be.js.map": "/2205/static/js/main.8cd2f8be.js.map",
+    "453.46309be1.chunk.js.map": "/2205/static/js/453.46309be1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2735f1db.css",
+    "static/js/main.8cd2f8be.js"
+  ]
+}
