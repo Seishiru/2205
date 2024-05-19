@@ -3,6 +3,7 @@ import React from 'react';
 import cecil from '../images/cecil.png';
 import von from '../images/von.png';
 import yongco from '../images/yongco.jpg';
+import ayam from '../images/ayam.png';
 
 const Home = () => {
   return (
@@ -34,6 +35,10 @@ const Home = () => {
             <div className="team-member">
               <img src={cecil} alt="Cecil"/>
               <p>Cecil</p>
+            </div>
+            <div className="team-member">
+              <img src={ayam} alt="Kristian"/>
+              <p>Kristian</p>
             </div>
             <div className="team-member">
               <img src={von} alt="Von"/>
