@@ -59,7 +59,7 @@
   }
   
   .moduleContent {
-    width: 98vw;  /*The culprit*/
+    width: 90vw;  /*The culprit*/
   }
   
   .altColor {
@@ -176,4 +176,30 @@
     color: white;
     width: 8.33%; /* Each label takes 1/12th of the width */
   }
+
+  .rectangle {
+    display: grid;
+    background-color: #18161642; 
+    padding: 20px;
+    margin: 20px;
+    border-radius: 1rem;
+  }
+
+  .intro-header {
+    color: white; 
+    font-size: 2.8em; 
+    margin-bottom: 1rem; 
+  }
   
+  .intro-text {
+    color: white;
+  }
+
+  .sub-header{
+  text-align: left;
+  }
+
+  .conclusion{
+  margin-left: 4rem;
+  text-align: left;
+  }
