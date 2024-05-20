@@ -84,6 +84,8 @@ a {
   border-radius: 500px;
   border-color: transparent;
   border-width: 0px;
+  margin-top: 25px;
+  margin-bottom: 50px;
   transition-duration: 200ms;
   box-shadow: 10px 10px 20px #000000;
   cursor: pointer;
@@ -109,6 +111,13 @@ a {
 .team-member {
   text-align: center;
   margin: 20px;
+  cursor: pointer;
+  transition-duration: 200ms;
+}
+
+.team-member:hover {
+  transition-duration: 200ms;
+  transform: scale(1.03);
 }
 
 .team-member img {
@@ -152,7 +161,6 @@ a {
   font-weight: bold;
   cursor: pointer;
 }
-
 .circle-label {
   text-align: center;
   font-size: 12px;

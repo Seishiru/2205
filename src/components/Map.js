@@ -11,10 +11,10 @@ const Map = () => {
             to={index + 3}
             smooth={true}
             duration={500}
-            offset={-210} 
+            offset={-230} 
+            className="circle"
             >
-            <div className="circle">{index + 1}</div>
-            
+            {index + 1}
           </Link>
             {index < 11 && <div className="line"></div>}
         </React.Fragment>

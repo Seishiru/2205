@@ -9,6 +9,12 @@ import { Element, Link } from 'react-scroll';
 import Map from './Map';
 
 const Home = () => {
+  const redirectToGithub = (username) => {
+    if (username === 'Cecil') window.open('https://github.com/Seishiru');
+    if (username === 'Kristian') window.open('https://github.com/krisyam');
+    if (username === 'Von') window.open('https://github.com/vonsogwapo');
+    if (username === 'Giulio') window.open('https://github.com/GM-Yongco');
+  }
   return (
     <div className="center">
       <div className="module">
@@ -41,29 +47,21 @@ const Home = () => {
               Group 6 of the Design Project course in University of San Carlos
             </p>
             <div className="team">
-              <div className="team-member">
+              <div className="team-member" onClick={()=>redirectToGithub('Cecil')}>
                 <img src={cecil} alt="Cecil" />
-                <a href='https://github.com/Seishiru' target='blank'>
                   <p>Cecil<br /> rapharaphael54@gmail.com</p>
-                </a>
               </div>
-              <div className="team-member">
+              <div className="team-member" onClick={()=>redirectToGithub('Kristian')}>
                 <img src={ayam} alt="Kristian" />
-                <a href='https://github.com/krisyam' target='blank'>
                   <p>Kristian<br /> kristian.ayam@gmail.com</p>
-                </a>
               </div>
-              <div className="team-member">
+              <div className="team-member" onClick={()=>redirectToGithub('Von')}>
                 <img src={von} alt="Von" />
-                <a href='https://github.com/vonsogwapo?fbclid=IwAR1OnIsDnWqAUJireF0uLjzP5Zr_DruAJ8RDctVEBzgmdYHm2ehuAEQK4xs' target='blank'>
                   <p>Von <br /> von.manginsay71@gmail.com</p>
-                </a>
               </div>
-              <div className="team-member">
+              <div className="team-member" onClick={()=>redirectToGithub('Giulio')}>
                 <img src={yongco} alt="Yongco" />
-                <a href='https://github.com/GM-Yongco' target='blank'>
                   <p>Giulio<br /> yongcogiulio125@gmail.com</p>
-                </a>
               </div>
             </div>
           </div>
