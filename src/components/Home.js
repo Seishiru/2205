@@ -11,6 +11,12 @@ import oldproto3 from '../images/oldproto3.png';
 import newproto1 from '../images/newproto1.png';
 import newproto2 from '../images/newproto2.png';
 import newproto3 from '../images/newproto3.png';
+import fishbone from '../images/fishbone.jpg';
+import user1 from '../images/user1.png';
+import user2 from '../images/user2.png';
+import dt from '../images/dt.png';
+import problem1 from '../images/problem1.png';
+
 
 import { Element, Link } from 'react-scroll';
 import Map from './Map';
@@ -177,7 +183,9 @@ const Home = () => {
             <div class="rectangle">
                 <h1 class="intro-header">Problem Statement</h1>
               <div class="intro-text">
-              <p>In the contemporary landscape of healthcare, MedApp stands as a vanguard of 
+              <h2> <img src={problem1} alt="p1" /></h2>
+
+              <p>The traditional healthcare appointment scheduling process is inefficient and cumbersome, resulting in inconvenience and frustration for patients and healthcare providers alike. Patients struggle to find convenient appointment times, manage their health records, and navigate complex scheduling systems. Healthcare providers face administrative burdens, resource inefficiencies, and communication challenges in managing appointment schedules. In the contemporary landscape of healthcare, MedApp stands as a vanguard of 
                 innovation, offering a transformative solution set to redefine patient-provider 
                 dynamics. By leveraging cutting-edge technology, MedApp facilitates seamless 
                 access to healthcare services, enabling patients to schedule appointments, 
@@ -207,6 +215,8 @@ const Home = () => {
               <div class="rectangle">
                 <h1 class="intro-header">User Research</h1>
                 <div class="prof-bg-text">
+               
+
 
                   <div class="rectangle">
                     <h3 class="sub-header">Purpose:</h3>
@@ -230,7 +240,8 @@ const Home = () => {
                   <div class="rectangle">
                     <h3 class="sub-header">User Persona for SDG 3:</h3>
                     {/* will add a Sample User Persona Picture here */}
-                    <h2>(picture)</h2>
+                    <h2> <img src={user1} alt="u1" /></h2>
+                <h2> <img src={user2} alt="u2" /></h2>
                     <p>Several key findings emerged from the user research, shedding light on the 
                       primary needs and pain points of both patients and healthcare providers. 
                       Patients expressed a strong desire for convenience, accessibility, and transparency 
@@ -283,9 +294,7 @@ const Home = () => {
                 <h2> <img src={oldproto1} alt="op1" /></h2>
                 <h2> <img src={oldproto2} alt="op2" /></h2>
                 <h2> <img src={oldproto3} alt="op3" /></h2>
-                <h2> <img src={newproto1} alt="np1" /></h2>
-                <h2> <img src={newproto2} alt="np2" /></h2>
-                <h2> <img src={newproto3} alt="np3" /></h2>
+                
               <p>Take a closer look at our interactive design prototype to gain a comprehensive 
                 understanding of the user interface and overall user experience.</p>
               </div>
@@ -302,7 +311,7 @@ const Home = () => {
                 with representative users, analyzing insights, and iteratively refining 
                 prototypes based on feedback, the design team ensures the creation of a 
                 user-centered and effective final product.</p>
-                <h2>(picture?? not sure)</h2>
+                <h2> <img src={fishbone} alt="fb" /></h2>
               </div>
             </div>
             </Element>
@@ -318,7 +327,7 @@ const Home = () => {
                 testing, and iterative refinement based on user feedback and evolving project 
                 requirements. By embracing this approach, the design evolves to create a user-centered 
                 final product that effectively meets user needs and project goals.</p>
-                <h2>(picture??)</h2>
+                <h2> <img src={dt} alt="dt" /></h2>
               </div>
             </div>
             </Element>
@@ -337,7 +346,9 @@ const Home = () => {
                 Through user-centric design principles, the solution achieves project goals by delivering 
                 tangible benefits to both patients and healthcare providers.</p>
               {/* add the figma here*/}
-              <h2>(the figma(after feedback))</h2>
+              <h2> <img src={newproto1} alt="np1" /></h2>
+                <h2> <img src={newproto2} alt="np2" /></h2>
+                <h2> <img src={newproto3} alt="np3" /></h2>
               <p>Take a closer look at our interactive design prototype to gain a comprehensive 
                 understanding of the user interface and overall user experience.</p>
               </div>

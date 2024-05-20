@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  
 }
   
 body {
@@ -37,6 +38,8 @@ p {
   @media screen and (max-width: 600px) {
     font-size: 12px; 
   }
+  text-align: justify;
+
 }
 
 a {
@@ -192,6 +195,7 @@ a {
   padding: 20px;
   margin: 20px;
   border-radius: 1rem;
+  
 }
 
 .intro-header {
