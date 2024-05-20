@@ -55,7 +55,7 @@ const Home = () => {
               </div>
               <div className="team-member">
                 <img src={von} alt="Von" />
-                <a href='' target='blank'>
+                <a href='https://github.com/vonsogwapo?fbclid=IwAR1OnIsDnWqAUJireF0uLjzP5Zr_DruAJ8RDctVEBzgmdYHm2ehuAEQK4xs' target='blank'>
                   <p>Von <br /> von.manginsay71@gmail.com</p>
                 </a>
               </div>
