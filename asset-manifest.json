@@ -1,22 +1,33 @@
 {
   "files": {
-    "main.css": "/2205/static/css/main.8082297c.css",
-    "main.js": "/2205/static/js/main.93883284.js",
+    "main.css": "/2205/static/css/main.ae4a23e5.css",
+    "main.js": "/2205/static/js/main.7f9c7c91.js",
     "static/js/453.46309be1.chunk.js": "/2205/static/js/453.46309be1.chunk.js",
+    "static/media/problem1.png": "/2205/static/media/problem1.d08c69a73b1f5f616e8e.png",
+    "static/media/yongco.png": "/2205/static/media/yongco.3209880ffee2162b20e5.png",
+    "static/media/ayam.png": "/2205/static/media/ayam.3b0c331a2f30f6fca47f.png",
+    "static/media/user2.png": "/2205/static/media/user2.8a278b718d6cd6c51034.png",
+    "static/media/oldproto1.png": "/2205/static/media/oldproto1.b2053b4a720a9281a705.png",
+    "static/media/user1.png": "/2205/static/media/user1.fcb0ceda23819c341510.png",
+    "static/media/newproto3.png": "/2205/static/media/newproto3.a6eb9b9854684eaa472b.png",
+    "static/media/dt.png": "/2205/static/media/dt.7d72c5659cf7ca36610c.png",
+    "static/media/newproto1.png": "/2205/static/media/newproto1.35df62eee62a7e33956c.png",
     "static/media/ideation.png": "/2205/static/media/ideation.185da79791cce06df772.png",
-    "static/media/ayam.png": "/2205/static/media/ayam.a39a1efa66863f51067d.png",
+    "static/media/newproto2.png": "/2205/static/media/newproto2.6e1490f9a6ebe17d69c7.png",
+    "static/media/oldproto2.png": "/2205/static/media/oldproto2.44160365859c2398821e.png",
     "static/media/von.png": "/2205/static/media/von.588d7bdd7f7e8f97ec5e.png",
-    "static/media/yongco.png": "/2205/static/media/yongco.5269370301a2b41f4d4a.png",
+    "static/media/oldproto3.png": "/2205/static/media/oldproto3.67a06ab139c27ec1d2e1.png",
+    "static/media/fishbone.jpg": "/2205/static/media/fishbone.a9e17e8e546b30f55f15.jpg",
     "static/media/cecil.png": "/2205/static/media/cecil.803cbf0fa7edfb60fe87.png",
     "static/media/HomescreenQuote.png": "/2205/static/media/HomescreenQuote.0cead9c23f7a980873de.png",
     "static/media/BlueDog.png": "/2205/static/media/BlueDog.bbcccdbd8ea23573635f.png",
     "index.html": "/2205/index.html",
-    "main.8082297c.css.map": "/2205/static/css/main.8082297c.css.map",
-    "main.93883284.js.map": "/2205/static/js/main.93883284.js.map",
+    "main.ae4a23e5.css.map": "/2205/static/css/main.ae4a23e5.css.map",
+    "main.7f9c7c91.js.map": "/2205/static/js/main.7f9c7c91.js.map",
     "453.46309be1.chunk.js.map": "/2205/static/js/453.46309be1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8082297c.css",
-    "static/js/main.93883284.js"
+    "static/css/main.ae4a23e5.css",
+    "static/js/main.7f9c7c91.js"
   ]
 }
