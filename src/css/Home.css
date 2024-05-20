@@ -123,6 +123,8 @@
     color: white; /* Ensure team member text is white */
   }
   
+  /* Map styles */
+  
   .map-container {
     display: flex;
     align-items: center;
@@ -160,5 +162,18 @@
     flex-grow: 1; /* Let the line grow to fill the remaining space */
     height: 6px;
     background-color: white;
+  }
+  
+  .labels-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  .label {
+    text-align: center;
+    font-size: 15px;
+    color: white;
+    width: 8.33%; /* Each label takes 1/12th of the width */
   }
   

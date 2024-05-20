@@ -82,6 +82,24 @@ const Home = () => {
             </a>
             {/* Include the Map component here */}
             <Map />
+            <div className="labels-container">
+              {[
+                "Introduction",
+                "Project Background",
+                "Problem Statement",
+                "User Research",
+                "Ideation Brainstorming",
+                "Prototype",
+                "User Testing",
+                "Iterative Design",
+                "Final Design",
+                "Impact",
+                "Lessons",
+                "Conclusion"
+              ].map((label, index) => (
+                <div key={index} className="label">{label}</div>
+              ))}
+            </div>
           </div>
         </div>
       </Element>
