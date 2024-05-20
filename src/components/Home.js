@@ -110,59 +110,65 @@ const Home = () => {
 
 
             {/* Intro and Overview */}
-            <div class="rectangle">
-                <h1 class="intro-header">Introduction and Overview</h1>
-              <div class="intro-text">
-              <p>In the contemporary landscape of healthcare, MedApp stands as a vanguard of 
-                innovation, offering a transformative solution set to redefine patient-provider 
-                dynamics. By leveraging cutting-edge technology, MedApp facilitates seamless 
-                access to healthcare services, enabling patients to schedule appointments, 
-                engage in virtual consultations, and manage their medical journey from the 
-                comfort of their homes. However, amidst its promise of convenience and efficiency, 
-                MedApp encounters challenges ranging from ensuring data security and privacy to 
-                bridging the digital divide and fostering widespread adoption. We will explore 
-                MedApp's pioneering approach to healthcare delivery while addressing the hurdles 
-                it faces in its mission to revolutionize the healthcare ecosystem.</p>
+            
+            <Element name={3} key={3}>
+              <div class="rectangle">
+                  <h1 class="intro-header">Introduction and Overview</h1>
+                <div class="intro-text">
+                <p>In the contemporary landscape of healthcare, MedApp stands as a vanguard of 
+                  innovation, offering a transformative solution set to redefine patient-provider 
+                  dynamics. By leveraging cutting-edge technology, MedApp facilitates seamless 
+                  access to healthcare services, enabling patients to schedule appointments, 
+                  engage in virtual consultations, and manage their medical journey from the 
+                  comfort of their homes. However, amidst its promise of convenience and efficiency, 
+                  MedApp encounters challenges ranging from ensuring data security and privacy to 
+                  bridging the digital divide and fostering widespread adoption. We will explore 
+                  MedApp's pioneering approach to healthcare delivery while addressing the hurdles 
+                  it faces in its mission to revolutionize the healthcare ecosystem.</p>
+                </div>
               </div>
-            </div>
+            </Element>
 
             {/* Profile Background */}
-            <div class="rectangle">
-                <h1 class="intro-header">Profile Background</h1>
-              <div class="prof-bg-text">
+            <Element name={4} key={4}>
+              <div class="rectangle">
+                  <h1 class="intro-header">Profile Background</h1>
+                <div class="prof-bg-text">
 
-                <div class="rectangle">
-                <h3 class="sub-header">Purpose:</h3>
-                <p>The genesis of the MedApp project stems from a growing need to address the 
-                inefficiencies and challenges prevalent in the healthcare appointment scheduling 
-                process. With advancements in technology transforming various industries, the 
-                healthcare sector stands to benefit significantly from innovative solutions that 
-                streamline processes and enhance user experiences.</p>
-                </div>
-                
-                <div class="rectangle">
-                <h3 class="sub-header">Project Initiation:</h3>
-                <p>The MedApp project was initiated to address these industry trends, market 
-                conditions, and user behaviors effectively. Recognizing the need for a comprehensive 
-                and user-friendly solution, our team embarked on developing a mobile application that 
-                simplifies healthcare access and appointment management. By leveraging technology 
-                and integrating key features such as appointment scheduling, medical record management, 
-                and secure communication, MedApp aims to meet the evolving needs and expectations of 
-                modern healthcare consumers.</p>
-                </div>
+                  <div class="rectangle">
+                  <h3 class="sub-header">Purpose:</h3>
+                  <p>The genesis of the MedApp project stems from a growing need to address the 
+                  inefficiencies and challenges prevalent in the healthcare appointment scheduling 
+                  process. With advancements in technology transforming various industries, the 
+                  healthcare sector stands to benefit significantly from innovative solutions that 
+                  streamline processes and enhance user experiences.</p>
+                  </div>
+                  
+                  <div class="rectangle">
+                  <h3 class="sub-header">Project Initiation:</h3>
+                  <p>The MedApp project was initiated to address these industry trends, market 
+                  conditions, and user behaviors effectively. Recognizing the need for a comprehensive 
+                  and user-friendly solution, our team embarked on developing a mobile application that 
+                  simplifies healthcare access and appointment management. By leveraging technology 
+                  and integrating key features such as appointment scheduling, medical record management, 
+                  and secure communication, MedApp aims to meet the evolving needs and expectations of 
+                  modern healthcare consumers.</p>
+                  </div>
 
-                <div class="rectangle">
-                <h3 class="sub-header">Vision for the Future:</h3>
-                <p>The genesis of the MedApp project stems from a growing need to address the 
-                inefficiencies and challenges prevalent in the healthcare appointment scheduling
-                process. With advancements in technology transforming various industries, the 
-                healthcare sector stands to benefit significantly from innovative solutions that 
-                streamline processes and enhance user experiences.</p>
+                  <div class="rectangle">
+                  <h3 class="sub-header">Vision for the Future:</h3>
+                  <p>The genesis of the MedApp project stems from a growing need to address the 
+                  inefficiencies and challenges prevalent in the healthcare appointment scheduling
+                  process. With advancements in technology transforming various industries, the 
+                  healthcare sector stands to benefit significantly from innovative solutions that 
+                  streamline processes and enhance user experiences.</p>
+                  </div>
                 </div>
               </div>
-            </div>
+            </Element>
 
             {/* Problem Statement */}
+            <Element name={5} key={5}>
             <div class="rectangle">
                 <h1 class="intro-header">Problem Statement</h1>
               <div class="intro-text">
@@ -190,68 +196,75 @@ const Home = () => {
                 </p>
                 </div>
             </div>
-
+            </Element>
             {/* User Research */}
-            <div class="rectangle">
+            <Element name={6} key={6}>
+              <div class="rectangle">
                 <h1 class="intro-header">User Research</h1>
-              <div class="prof-bg-text">
+                <div class="prof-bg-text">
 
-                <div class="rectangle">
-                <h3 class="sub-header">Purpose:</h3>
-                <p>The purpose of conducting user research is to gain valuable insights 
-                  into the needs, preferences, and behaviors of the target users. By 
-                  understanding their perspectives and challenges, the design team can 
-                  develop solutions that effectively address their requirements and enhance 
-                  user satisfaction.</p>
-                </div>
+                  <div class="rectangle">
+                    <h3 class="sub-header">Purpose:</h3>
+                    <p>The purpose of conducting user research is to gain valuable insights 
+                      into the needs, preferences, and behaviors of the target users. By 
+                      understanding their perspectives and challenges, the design team can 
+                      develop solutions that effectively address their requirements and enhance 
+                      user satisfaction.</p>
+                  </div>
 
-                <div class="rectangle">
-                <h3 class="sub-header">Research Methods:</h3>
-                <p>The user research process involved a combination of qualitative and 
-                  quantitative methods, including surveys, interviews, and usability testing. 
-                  Surveys provided broad insights into user demographics, preferences, and pain 
-                  points, while interviews delved deeper into individual experiences and challenges. 
-                  Usability testing helped evaluate the usability and effectiveness of potential 
-                  design solutions.</p>
-                </div>
+                  <div class="rectangle">
+                    <h3 class="sub-header">Research Methods:</h3>
+                    <p>The user research process involved a combination of qualitative and 
+                      quantitative methods, including surveys, interviews, and usability testing. 
+                      Surveys provided broad insights into user demographics, preferences, and pain 
+                      points, while interviews delved deeper into individual experiences and challenges. 
+                      Usability testing helped evaluate the usability and effectiveness of potential 
+                      design solutions.</p>
+                  </div>
 
-                <div class="rectangle">
-                <h3 class="sub-header">User Persona for SDG 3:</h3>
-                {/* will add a Sample User Persona Picture here */}
-                <h2>(picture)</h2>
-                <p>Several key findings emerged from the user research, shedding light on the 
-                  primary needs and pain points of both patients and healthcare providers. 
-                  Patients expressed a strong desire for convenience, accessibility, and transparency 
-                  in the appointment scheduling process. They highlighted the importance of features 
-                  such as real-time availability updates, automated reminders, and seamless communication 
-                  with healthcare providers. Healthcare providers, on the other hand, emphasized the need 
-                  for an intuitive and efficient scheduling system that integrates seamlessly with their 
-                  existing workflows.
-                </p>
+                  <div class="rectangle">
+                    <h3 class="sub-header">User Persona for SDG 3:</h3>
+                    {/* will add a Sample User Persona Picture here */}
+                    <h2>(picture)</h2>
+                    <p>Several key findings emerged from the user research, shedding light on the 
+                      primary needs and pain points of both patients and healthcare providers. 
+                      Patients expressed a strong desire for convenience, accessibility, and transparency 
+                      in the appointment scheduling process. They highlighted the importance of features 
+                      such as real-time availability updates, automated reminders, and seamless communication 
+                      with healthcare providers. Healthcare providers, on the other hand, emphasized the need 
+                      for an intuitive and efficient scheduling system that integrates seamlessly with their 
+                      existing workflows.
+                    </p>
+                  </div>
                 </div>
+              </div>
+            </Element>
 
             {/* Ideation and Brainstorming*/}
+            <Element name={7} key={7}>
             <div class="rectangle">
-                <h1 class="intro-header">Ideation and Brainstorming</h1>
+              <h1 class="intro-header">Ideation and Brainstorming</h1>
               <div class="intro-text">
-              <p>The ideation and brainstorming phase is essential for generating a diverse 
-                range of potential solutions to address the identified problems and meet the 
-                needs of the target users. This phase encourages creativity and innovation, 
-                fostering an environment where team members can explore and develop ideas collaboratively.
-              </p>
-              {/* will add the Table of Ideas here */}
-              <h2> <img src={ideation} alt="ideation" /></h2>
-              <p>The design team conducted brainstorming sessions involving all stakeholders, 
-                including designers, developers, healthcare professionals, and end-users. These 
-                sessions were structured to encourage creativity and participation, with team members 
-                freely sharing ideas and building upon each other's suggestions. Techniques such as mind 
-                mapping, rapid ideation, and role-playing were employed to stimulate creativity and generate 
-                a wide range of potential solutions.
-              </p>
+                <p>The ideation and brainstorming phase is essential for generating a diverse 
+                  range of potential solutions to address the identified problems and meet the 
+                  needs of the target users. This phase encourages creativity and innovation, 
+                  fostering an environment where team members can explore and develop ideas collaboratively.
+                </p>
+                {/* will add the Table of Ideas here */}
+                <h2> <img src={ideation} alt="ideation" /></h2>
+                <p>The design team conducted brainstorming sessions involving all stakeholders, 
+                  including designers, developers, healthcare professionals, and end-users. These 
+                  sessions were structured to encourage creativity and participation, with team members 
+                  freely sharing ideas and building upon each other's suggestions. Techniques such as mind 
+                  mapping, rapid ideation, and role-playing were employed to stimulate creativity and generate 
+                  a wide range of potential solutions.
+                </p>
               </div>
             </div>
+            </Element>
 
             {/* Prototyping */}
+            <Element name={8} key={8}>
             <div class="rectangle">
                 <h1 class="intro-header">Prototyping</h1>
               <div class="intro-text">
@@ -267,8 +280,9 @@ const Home = () => {
                 understanding of the user interface and overall user experience.</p>
               </div>
             </div>
-
+            </Element>
             {/* User Testing */}
+            <Element name={9} key={9}>
             <div class="rectangle">
                 <h1 class="intro-header">User Testing</h1>
               <div class="intro-text">
@@ -281,8 +295,10 @@ const Home = () => {
                 <h2>(picture?? not sure)</h2>
               </div>
             </div>
+            </Element>
 
             {/* Iterative Design */}
+            <Element name={10} key={10}>
             <div class="rectangle">
                 <h1 class="intro-header">Iterative Design Process</h1>
               <div class="intro-text">
@@ -295,8 +311,10 @@ const Home = () => {
                 <h2>(picture??)</h2>
               </div>
             </div>
+            </Element>
 
             {/* Final Design */}
+            <Element name={11} key={11}>
             <div class="rectangle">
                 <h1 class="intro-header">Final Design</h1>
               <div class="intro-text">
@@ -314,8 +332,10 @@ const Home = () => {
                 understanding of the user interface and overall user experience.</p>
               </div>
             </div>
+            </Element>
 
             {/* Impact */}
+            <Element name={12} key={12}>
             <div class="rectangle">
                 <h1 class="intro-header">Impact and Results</h1>
               <div class="intro-text">
@@ -329,8 +349,10 @@ const Home = () => {
                 evolving user needs and market conditions.</p>
               </div>
             </div>
+            </Element>
 
             {/* Lessons */}
+            <Element name={13} key={13}>
             <div class="rectangle">
                 <h1 class="intro-header">Lessons Learned</h1>
               <div class="intro-text">
@@ -352,43 +374,39 @@ const Home = () => {
                 future design endeavors.</p>
               </div>
             </div>
-
+            </Element>
             {/* Conclusion */}
+            <Element name={14} key={14}>
             <div class="rectangle">
-                <h1 class="intro-header">Conclusion</h1>
+              <h1 class="intro-header">Conclusion</h1>
               <div class="intro-text">
-              <p>The design project has been a journey of innovation and collaboration, 
-                resulting in the creation of a transformative solution that addresses 
-                the challenges of traditional healthcare appointment scheduling. Through 
-                a user-centered design approach, iterative refinement, and a commitment 
-                to continuous improvement, we have successfully developed a solution that 
-                enhances accessibility, efficiency, and satisfaction for both patients and 
-                healthcare providers.
-              <ul class="conclusion">
-                Key takeaways from the design project include:
-              <li>The importance of prioritizing user needs and feedback throughout the design process.</li>
-              <li>The value of collaboration and teamwork in fostering creativity and accelerating progress.</li>
-              <li>The benefits of an iterative design approach, allowing for continuous refinement and adaptation based on user insights.</li>
-              <li>The significance of addressing unexpected challenges and embracing opportunities for growth and learning.</li>
-              <li>The design solution represents a significant step forward in improving healthcare access and patient experience. By streamlining the appointment scheduling process, integrating with electronic health records, and prioritizing user-friendly design, we have created a solution that meets the needs of modern healthcare consumers.</li>
-              </ul>  
-              <p>Moving forward, it is essential to continue monitoring the impact of the design solution, 
-              gathering feedback from users, and iterating on the design to ensure its effectiveness and 
-              relevance in a rapidly evolving healthcare landscape. By embracing a culture of continuous 
-              improvement and innovation, we can build upon the success of this project and deliver even 
-              greater value to our users and stakeholders in the future.</p>
-              </p>
+                <p>The design project has been a journey of innovation and collaboration, 
+                  resulting in the creation of a transformative solution that addresses 
+                  the challenges of traditional healthcare appointment scheduling. Through 
+                  a user-centered design approach, iterative refinement, and a commitment 
+                  to continuous improvement, we have successfully developed a solution that 
+                  enhances accessibility, efficiency, and satisfaction for both patients and 
+                  healthcare providers.
+                <ul class="conclusion">
+                  Key takeaways from the design project include:
+                <li>The importance of prioritizing user needs and feedback throughout the design process.</li>
+                <li>The value of collaboration and teamwork in fostering creativity and accelerating progress.</li>
+                <li>The benefits of an iterative design approach, allowing for continuous refinement and adaptation based on user insights.</li>
+                <li>The significance of addressing unexpected challenges and embracing opportunities for growth and learning.</li>
+                <li>The design solution represents a significant step forward in improving healthcare access and patient experience. By streamlining the appointment scheduling process, integrating with electronic health records, and prioritizing user-friendly design, we have created a solution that meets the needs of modern healthcare consumers.</li>
+                </ul>  
+                <p>Moving forward, it is essential to continue monitoring the impact of the design solution, 
+                gathering feedback from users, and iterating on the design to ensure its effectiveness and 
+                relevance in a rapidly evolving healthcare landscape. By embracing a culture of continuous 
+                improvement and innovation, we can build upon the success of this project and deliver even 
+                greater value to our users and stakeholders in the future.</p>
+                </p>
               </div>
             </div>
-
-              </div>
-            </div>
-
-
+            </Element>
           </div>
         </div>
       </Element>
-      
     </div>
     
   );
