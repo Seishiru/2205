@@ -57,7 +57,7 @@ const Home = () => {
           <div className='moduleContent'>
             <h1>Design Project Team</h1>
             <p>
-              Group 6 of the Design Project course in University of San Carlos
+              Group 6 of the Design Project course in University of San Carlos:
             </p>
             <div className="team">
               <div className="team-member" onClick={()=>redirectToGithub('Cecil')}>

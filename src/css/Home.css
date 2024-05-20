@@ -43,7 +43,7 @@ p {
 }
 
 a {
-  text-decoration: underline;
+  text-decoration: none;
   color: white; /* Ensure links are also white */
 }
 
@@ -163,6 +163,7 @@ a {
   font-size: 18px;
   font-weight: bold;
   cursor: pointer;
+  text-decoration: none;
 }
 .circle-label {
   text-align: center;
