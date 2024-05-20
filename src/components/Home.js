@@ -5,6 +5,13 @@ import von from '../images/von.png';
 import yongco from '../images/yongco.png';
 import ayam from '../images/ayam.png';
 import ideation from '../images/ideation.png';
+import oldproto1 from '../images/oldproto1.png';
+import oldproto2 from '../images/oldproto2.png';
+import oldproto3 from '../images/oldproto3.png';
+import newproto1 from '../images/newproto1.png';
+import newproto2 from '../images/newproto2.png';
+import newproto3 from '../images/newproto3.png';
+
 import { Element, Link } from 'react-scroll';
 import Map from './Map';
 
@@ -273,7 +280,12 @@ const Home = () => {
                 product. This iterative approach ensured that the final design met user needs and 
                 preferences effectively.</p>
                 {/* add the figma here*/}
-                <h2>(the figma)</h2>
+                <h2> <img src={oldproto1} alt="op1" /></h2>
+                <h2> <img src={oldproto2} alt="op2" /></h2>
+                <h2> <img src={oldproto3} alt="op3" /></h2>
+                <h2> <img src={newproto1} alt="np1" /></h2>
+                <h2> <img src={newproto2} alt="np2" /></h2>
+                <h2> <img src={newproto3} alt="np3" /></h2>
               <p>Take a closer look at our interactive design prototype to gain a comprehensive 
                 understanding of the user interface and overall user experience.</p>
               </div>
