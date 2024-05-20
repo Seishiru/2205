@@ -4,6 +4,7 @@ import cecil from '../images/cecil.png';
 import von from '../images/von.png';
 import yongco from '../images/yongco.png';
 import ayam from '../images/ayam.png';
+import ideation from '../images/ideation.png';
 import { Element, Link } from 'react-scroll';
 import Map from './Map';
 
@@ -232,7 +233,7 @@ const Home = () => {
                 fostering an environment where team members can explore and develop ideas collaboratively.
               </p>
               {/* will add the Table of Ideas here */}
-              <h2>(picture)</h2>
+              <h2> <img src={ideation} alt="ideation" /></h2>
               <p>The design team conducted brainstorming sessions involving all stakeholders, 
                 including designers, developers, healthcare professionals, and end-users. These 
                 sessions were structured to encourage creativity and participation, with team members 
