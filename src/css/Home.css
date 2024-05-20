@@ -38,8 +38,6 @@ p {
   @media screen and (max-width: 600px) {
     font-size: 12px; 
   }
-  text-align: justify;
-
 }
 
 a {
@@ -141,7 +139,7 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 20px 0;
+  margin: 20px 40px;
 }
 
 .circle-container {
@@ -163,7 +161,6 @@ a {
   font-size: 18px;
   font-weight: bold;
   cursor: pointer;
-  text-decoration: none;
 }
 .circle-label {
   text-align: center;
