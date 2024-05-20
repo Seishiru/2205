@@ -81,29 +81,36 @@ const Home = () => {
                 <h2>SDG 3: Good Health and Well-Being</h2>
               </button>
             </a>
+
+
             {/* Include the Map component here */}
-            <Map />
-            <div className="labels-container">
-              {[
-                "Introduction",
-                "Project Background",
-                "Problem Statement",
-                "User Research",
-                "Ideation Brainstorming",
-                "Prototype",
-                "User Testing",
-                "Iterative Design",
-                "Final Design",
-                "Impact",
-                "Lessons",
-                "Conclusion"
-              ].map((label, index) => (
-                <div key={index} className="label">{label}</div>
-              ))}
-              
+            
+            <div className="sticky-map ">
+              <Map />
+              <div className="labels-container ">
+                {[
+                  "Introduction",
+                  "Project Background",
+                  "Problem Statement",
+                  "User Research",
+                  "Ideation Brainstorming",
+                  "Prototype",
+                  "User Testing",
+                  "Iterative Design",
+                  "Final Design",
+                  "Impact",
+                  "Lessons",
+                  "Conclusion"
+                ].map((label, index) => (
+                  <div key={index} className="label">{label}</div>
+                ))}
+              </div>
             </div>
-                        {/* Intro and Overview */}
-                        <div class="rectangle">
+            
+
+
+            {/* Intro and Overview */}
+            <div class="rectangle">
                 <h1 class="intro-header">Introduction and Overview</h1>
               <div class="intro-text">
               <p>In the contemporary landscape of healthcare, MedApp stands as a vanguard of 

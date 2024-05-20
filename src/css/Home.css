@@ -1,205 +1,213 @@
 /* Global reset for margin and padding */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
   
-  body {
-    background-color: #1C1C1C; /* Dark gray background for the body */
-    color: white; /* Default text color to white */
-    margin: 0;
-    padding: 0;
-  }
-  
-  h1 {
-    color: white; /* Change to white */
-    font-size: 60px;
-    margin: 20px 0; /* Add consistent margin */
-    @media screen and (max-width: 600px) {
-      font-size: 35px; 
-    }
-  }
-  
-  h2 {
-    color: white; /* Ensure h2 text is white */
-    font-size: 35px;
-    margin: 15px 0; /* Add consistent margin */
-    @media screen and (max-width: 600px) {
-      font-size: 20px; 
-    }
-  }
-  
-  p {
-    color: white; /* Change to white */
-    font-size: 18px;
-    margin: 10px 0; /* Add consistent margin */
-    @media screen and (max-width: 600px) {
-      font-size: 12px; 
-    }
-  }
-  
-  a {
-    text-decoration: none;
-    color: white; /* Ensure links are also white */
-  }
-  
-  .center {
-    text-align: center;
-  }
-  
-  .module {
-    display: flex;
-    width: 100vw;
-    justify-content: center;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    background-color: #1C1C1C; /* Match the background color */
-    margin: 0;
-  }
-  
-  .moduleContent {
-    width: 90vw;  /*The culprit*/
-  }
-  
-  .altColor {
-    background-color: #2B2B2B; /* A slightly lighter dark gray */
-  }
-  
-  .column {
-    display: block;
-    direction: column;
-  }
-  
-  .learnMore {
-    cursor: pointer;
-    color: white; /* Ensure learn more text is white */
-  }
-  
-  .sdg3 {
-    background-color: #D55C5A;
-    padding: 30px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    border-radius: 500px;
-    border-color: transparent;
-    border-width: 0px;
-    transition-duration: 200ms;
-    box-shadow: 10px 10px 20px #000000;
-    cursor: pointer;
-    color: white; /* Ensure sdg3 text is white */
-    @media screen and (max-width: 600px) {
-      padding: 10px;
-      margin: 10px;
-    }
-  }
-  
-  .sdg3:hover {
-    transition-duration: 200ms;
-    transform: scale(1.009);
-  }
-  
-  .team {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
-  }
-  
-  .team-member {
-    text-align: center;
-    margin: 20px;
-  }
-  
-  .team-member img {
-    max-width: 200px;
-    border-radius: 2000;
-  }
-  
-  .team-member p {
-    margin-top: 10px;
-    font-size: 1.2em;
-    font-weight: bold;
-    color: white; /* Ensure team member text is white */
-  }
-  
-  /* Map styles */
-  
-  .map-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 20px 0;
-  }
-  
-  .circle-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-right: 20px; /* Adjust the space between circles */
-  }
-  
-  .circle {
-    width: 50px;
-    height: 50px;
-    background-color: white;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #1C1C1C; /* Dark color for the numbers inside the circles */
-    font-size: 18px;
-    font-weight: bold;
-  }
-  
-  .circle-label {
-    text-align: center;
-    font-size: 12px;
-    color: white;
-  }
-  
-  .line {
-    flex-grow: 1; /* Let the line grow to fill the remaining space */
-    height: 6px;
-    background-color: white;
-  }
-  
-  .labels-container {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 10px;
-  }
-  
-  .label {
-    text-align: center;
-    font-size: 15px;
-    color: white;
-    width: 8.33%; /* Each label takes 1/12th of the width */
-  }
+body {
+  background-color: #1C1C1C; /* Dark gray background for the body */
+  color: white; /* Default text color to white */
+  margin: 0;
+  padding: 0;
+}
 
-  .rectangle {
-    display: grid;
-    background-color: #18161642; 
-    padding: 20px;
-    margin: 20px;
-    border-radius: 1rem;
+h1 {
+  color: white; /* Change to white */
+  font-size: 60px;
+  margin: 20px 0; /* Add consistent margin */
+  @media screen and (max-width: 600px) {
+    font-size: 35px; 
   }
+}
 
-  .intro-header {
-    color: white; 
-    font-size: 2.8em; 
-    margin-bottom: 1rem; 
+h2 {
+  color: white; /* Ensure h2 text is white */
+  font-size: 35px;
+  margin: 15px 0; /* Add consistent margin */
+  @media screen and (max-width: 600px) {
+    font-size: 20px; 
   }
-  
-  .intro-text {
-    color: white;
-  }
+}
 
-  .sub-header{
+p {
+  color: white; /* Change to white */
+  font-size: 18px;
+  margin: 10px 0; /* Add consistent margin */
+  @media screen and (max-width: 600px) {
+    font-size: 12px; 
+  }
+}
+
+a {
+  text-decoration: none;
+  color: white; /* Ensure links are also white */
+}
+
+.center {
+  text-align: center;
+}
+
+.module {
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #1C1C1C; /* Match the background color */
+  margin: 0;
+}
+
+.moduleContent {
+  width: 90vw;  /*The culprit*/
+}
+
+.altColor {
+  background-color: #2B2B2B; /* A slightly lighter dark gray */
+}
+
+.column {
+  display: block;
+  direction: column;
+}
+
+.learnMore {
+  cursor: pointer;
+  color: white; /* Ensure learn more text is white */
+}
+
+.sdg3 {
+  background-color: #D55C5A;
+  padding: 30px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 500px;
+  border-color: transparent;
+  border-width: 0px;
+  transition-duration: 200ms;
+  box-shadow: 10px 10px 20px #000000;
+  cursor: pointer;
+  color: white; /* Ensure sdg3 text is white */
+  @media screen and (max-width: 600px) {
+    padding: 10px;
+    margin: 10px;
+  }
+}
+
+.sdg3:hover {
+  transition-duration: 200ms;
+  transform: scale(1.009);
+}
+
+.team {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.team-member {
+  text-align: center;
+  margin: 20px;
+}
+
+.team-member img {
+  max-width: 200px;
+  border-radius: 2000;
+}
+
+.team-member p {
+  margin-top: 10px;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: white; /* Ensure team member text is white */
+}
+
+/* Map styles */
+
+.map-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.circle-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 20px; /* Adjust the space between circles */
+}
+
+.circle {
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #1C1C1C; /* Dark color for the numbers inside the circles */
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.circle-label {
+  text-align: center;
+  font-size: 12px;
+  color: white;
+}
+
+.line {
+  flex-grow: 1; /* Let the line grow to fill the remaining space */
+  height: 6px;
+  background-color: white;
+}
+
+.labels-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.label {
+  text-align: center;
+  font-size: 15px;
+  color: white;
+  width: 8.33%; /* Each label takes 1/12th of the width */
+}
+
+.rectangle {
+  display: grid;
+  background-color: #18161642; 
+  padding: 20px;
+  margin: 20px;
+  border-radius: 1rem;
+}
+
+.intro-header {
+  color: white; 
+  font-size: 2.8em; 
+  margin-bottom: 1rem; 
+}
+
+.intro-text {
+  color: white;
+}
+
+.sub-header{
   text-align: left;
-  }
+}
 
-  .conclusion{
+.conclusion{
   margin-left: 4rem;
   text-align: left;
-  }
+}
+
+.sticky-map{
+  position: sticky;
+  top: 50px;
+  /* background-color: rgba(43, 43, 43, 0.5); */
+  z-index: 1000;
+  padding: 25px 0px;
+}
